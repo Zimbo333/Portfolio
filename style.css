@@ -58,13 +58,13 @@
 		animation: updown .2s infinite alternate;
 		content: "\f078";
 	}
-	.btn:hover{
+	.btn-nav, .btn-visit:hover{
 		opacity: 0.8;
 	}
 	.underline{
 		text-decoration: underline;
 	}
 
-	.btn{
+	.btn-nav, .btn-visit{
 		background: #ef6a4e !important;
 	}
