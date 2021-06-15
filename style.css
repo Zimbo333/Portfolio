@@ -1,9 +1,10 @@
 :root{
-	--ci1: #232323;
-	--ci2: #fff;
-	--ci3: #1f1f1f;
-	--ci4: #ef6a4e;
-	--ci5: #bcd1fe;
+	--ci1: #150a09;
+    --ci2: #fff;
+    --ci3: hsl(5deg 5% 15%);
+    --ci4:  hsl(5deg,60%,50%);
+    --ci5: #bcd1fe;
+    --link: var(--ci1);
 	--link: var(--ci1);
 	--link-hover: var(--ci4);
 	--btn-bg: var(--ci1);
@@ -24,10 +25,13 @@
 		font-weight: 700;
 	}
 	.text-shadow{
-		position: absolute;
-		top: 0;
-		left: 42.5%;
-		z-index: -1;
+		font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 42.5%;
+    z-index: -1;
+    color: #ef6a4e;
+    opacity: .1;
 	}
 	.mom{
 		position: relative;
@@ -67,4 +71,9 @@
 
 	.btn-nav, .btn-visit{
 		background: #ef6a4e !important;
+	}
+	.section-break{
+		width: 100%;
+		height: 1px;
+		background-color: hsl(5,100%,30%);
 	}
