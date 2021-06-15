@@ -18,9 +18,9 @@
 	--pmr-font: var(--font-ibm-loop);
 	--txt-font: var(--font-ibm-loop);
 }
-/*html {
+html {
 	scroll-behavior: smooth;
-	}*/
+	}
 	h1,h2,h3,h4,h5,h6{
 		font-weight: 700;
 	}
