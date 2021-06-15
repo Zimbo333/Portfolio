@@ -1,7 +1,7 @@
 :root{
-	--ci1: #150a09;
-    --ci2: #fff;
-    --ci3: hsl(5deg 5% 15%);
+	--ci1: #180900;
+    --ci2: #fee9da;
+    --ci3: hsl(5deg 20% 15%);
     --ci4:  hsl(5deg,60%,50%);
     --ci5: #bcd1fe;
     --link: var(--ci1);
